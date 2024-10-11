@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        /* Product Detail Styles */
+        .product-detail {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-image-section {
+            margin-bottom: 20px;
+        }
+        
+        .product-image-section img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .image-gallery img {
+            width: 20%;
+            height: 100px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        .product-information-section {
+            margin-bottom: 20px;
+        }
+        
+        .product-information-section h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .product-specifications {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .product-specifications li {
+            margin-bottom: 10px;
+        }
+        
+        .product-reviews {
+            margin-bottom: 20px;
+        }
+        
+        .product-reviews span {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .pricing-and-availability-section {
+            margin-bottom: 20px;
+        }
+        
+        .pricing-and-availability-section span {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .call-to-action-section {
+            margin-bottom: 20px;
+        }
+        
+        .call-to-action-section button {
+            width: 100%;
+            height: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        .call-to-action-section button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- navigation menu -->
+        </nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <div class="product-image-section">
+                <img src="C:\Users\ramak\Downloads\shopping6.jpg" alt="Product Image">
+                <div class="image-gallery">
+                    <img src="C:\Users\ramak\Downloads\download1.jpg" alt="Product Image 1">
+                    <img src="C:\Users\ramak\Downloads\images2.jpg" alt="Product Image 2">
+                    <img src="C:\Users\ramak\Downloads\images4.jpg" alt="Product Image 3">
+                </div>
+                <button>Upload Your Photo</button>
+            </div>
+            <div class="product-information-section">
+                <h1 id="product-title">Nike Air Max 270 Shoe</h1>
+                <p id="product-description">The Nike Air Max 270 is a sleek and comfortable shoe designed for everyday wear.</p>
+                <ul id="product-specifications">
+                    <li>Color: Black/White</li>
+                    <li>Material: Synthetic</li>
+                    <li>Size: 8-12</li>
+                    <li>Weight: 10.6 oz</li>
+                </ul>
+                <div class="product-reviews">
+                    <span id="average-rating">4.5/5</span>
+                    <span id="number-of-reviews">(123 reviews)</span>
+                    <button id="read-all-reviews">Read All Reviews</button>
+                </div>
+            </div>
+            <div class="pricing-and-availability-section">
+                <span id="price">2999\-</span>
+                <span id="discount">-10% off</span>
+                <span id="availability">In stock. Ships within 24 hours.</span>
+            </div>
+           
